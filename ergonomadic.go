@@ -34,9 +34,6 @@ func loadConfig(conf string) *irc.Config {
 	return config
 }
 
-func genPasswd() {
-}
-
 func main() {
 	var conf string
 	flag.Usage = usage
