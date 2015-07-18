@@ -1,9 +1,10 @@
 package irc
 
 import (
-	"golang.org/x/text/unicode/norm"
 	"regexp"
 	"strings"
+
+	"golang.org/x/text/unicode/norm"
 )
 
 var (

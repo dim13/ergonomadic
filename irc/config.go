@@ -1,9 +1,10 @@
 package irc
 
 import (
-	"code.google.com/p/gcfg"
 	"errors"
 	"log"
+
+	"code.google.com/p/gcfg"
 )
 
 type PassConfig struct {
