@@ -83,7 +83,6 @@ const (
 	Quiet           ChannelMode = 'q' // flag
 	ReOp            ChannelMode = 'r' // flag
 	Secret          ChannelMode = 's' // flag, deprecated
-	Theater         ChannelMode = 'T' // flag, nonstandard
 	UserLimit       ChannelMode = 'l' // flag arg
 	Voice           ChannelMode = 'v' // arg
 )
@@ -91,7 +90,7 @@ const (
 var (
 	SupportedChannelModes = ChannelModes{
 		BanMask, ExceptMask, InviteMask, InviteOnly, Key, NoOutside,
-		OpOnlyTopic, Persistent, Private, Theater, UserLimit,
+		OpOnlyTopic, Persistent, Private, UserLimit,
 	}
 )
 
