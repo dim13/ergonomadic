@@ -41,8 +41,12 @@ type Server struct {
 }
 
 var (
-	SERVER_SIGNALS = []os.Signal{syscall.SIGINT, syscall.SIGHUP,
-		syscall.SIGTERM, syscall.SIGQUIT}
+	SERVER_SIGNALS = []os.Signal{
+		syscall.SIGINT,
+		syscall.SIGHUP,
+		syscall.SIGTERM,
+		syscall.SIGQUIT,
+	}
 )
 
 func NewServer(config *Config) *Server {
